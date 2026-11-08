@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+*{  box-sizing: border-box;  margin: 0;  padding: 0;}
+
+:root{
+  /*color*/
+  --white: #fff8e7;
+  --black: #1e1e1e;
+  --green: #27ae2e;
+  --tem: #8ecfc7;
+  --grey: #3545454;
+  --blue: #173567;
+}
+
+html, body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--white);
+  color: var(--green);
+}
+
